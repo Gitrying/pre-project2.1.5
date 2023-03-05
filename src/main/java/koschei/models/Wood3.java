@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Wood3 {
-
+    //конструируется через связывание по @Autowired с помощью конструктора
     private final Rabbit4 rabbit;
 
     @Autowired
